@@ -1,0 +1,57 @@
+// A. Revisar los ejercicios y problemáticas de la carpeta ejemplos. Plantear la mejor solución.
+// B. Generar una miniespecificación que permita ingresar los valor de ventas 
+de un vendedor por cada día de la semana (lunes a viernes);donde día 0 es Lunes. Usar 2 arreglos.
+
+1. Inicio
+2. (ventas(5),i[0-n])
+3. (dias(5), x(20)[{a-z}, {A-Z}, {BS}])
+4. cadena, x(100)[{A-Z}, {a-z}, {1-500}, {BS}]
+5. dias[0] <-- "Lunes"
+6. dias[1] <-- "Martes"
+7. dias[2] <-- "Miércoles"
+8. dias[3] <-- "Jueves" 
+9. dias[4] <-- "Viernes"
+11. Para (indice <-- 0, indice < 5, 1)haga 
+12. 	Escribir "Ingresar cuanto vendio en el día"
+13. 	leer ventadeldia
+14. 	ventas[indice] <-- ventadeldia
+15. 	cadena <-- "cadena\n" + dias[indice] + ventas[indice]
+16. Fin Para
+17. Escribir cadena
+18. Fin
+
+//C. Dados un arreglo.Imprimir todos los valores del arreglo cuyo valor sea impar
+1.Inicio
+2.arreglo(5), i[0-n]
+3.arreglo[0] <-- 10
+4.arreglo[1] <-- 9
+5.arreglo[2] <-- 20
+6.arreglo[3] <-- 29
+7.arreglo[4] <-- 100
+8.indice, i[0,n]
+9.cadena, x(100)[{1-100}{BS}]<-- ""
+10. Para (indice<--0, indice<5, 1) haga
+11. 	Si arreglo[indice]MOD 3 != 0 entonces
+12.	   cadena <-- cadena + arreglo[indice]
+13.Fin si
+14.Fin Para
+15.Escribir cadena
+16.Fin
+
+//D. Dados un arreglo.Imprimir todos los valores del arreglo que pertencen a un índice par mayor o igual a 2
+1.Inicio
+2.arreglo(5), i[0-n]
+3.arreglo[0] <-- 10
+4.arreglo[1] <-- 9
+5.arreglo[2] <-- 20
+6.arreglo[3] <-- 29
+7.arreglo[4] <-- 100
+8.indice, i[0,n]
+9.cadena, x(100)[{1-100},{BS} 
+10.Para(indice <-- 0, indice < 5, 1) haga
+11.	Si (indice >= 2) AND (indice MOD 2 = 0) entonces 
+12.	cadena <--cadena + arreglo[indice] 
+13.Fin si
+14.Fin Para
+15.Escribir cadena
+16.Fin
